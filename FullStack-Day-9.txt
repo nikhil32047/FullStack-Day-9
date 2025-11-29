@@ -1,0 +1,55 @@
+Day 9:
+==========
+
+Control Statements – Decision Making
+Python uses decision-making statements to execute code based on conditions.
+
+a) if Statement
+===================
+Executes a block only if the condition is True.
+
+Example:
+age = 20
+if age >= 18:
+    print("Eligible to vote")
+
+
+b) Nested if Statement
+==============================
+An if statement inside another if.
+Used for multiple-level conditions.
+
+Example:
+num = 15
+if num > 0:
+    if num % 3 == 0:
+        print("Positive and divisible by 3")
+
+
+c) if-else Statement
+============================
+Chooses between two paths:
+if condition is True → execute if block
+else → execute other block
+
+Example:
+marks = 40
+if marks >= 35:
+    print("Pass")
+else:
+    print("Fail")
+
+
+d) if-elif-else Statement
+==================================
+Used when multiple conditions must be checked in sequence.
+Only the first True block executes.
+
+Example:
+score = 85
+if score >= 90:
+    print("Excellent")
+elif score >= 75:
+    print("Good")
+else:
+    print("Average")
